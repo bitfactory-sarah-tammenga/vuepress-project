@@ -1,10 +1,10 @@
 backend:
   name: github
-  repo: yonkov/Vuepress-project
+  repo: bitfactory-sarah-tammenga/vuepress-project
   branch: master
 media_folder: ".vuepress/public/"
 public_folder: "../../"
-display_url: https://teachenglish.netlify.com
+display_url: https://compassionate-curie-ca0385/netlify.com
 collections:
   - name: "doc" # Used in routes, e.g., /admin/collections/blog
     label: "Doc" # Used in the UI
@@ -19,3 +19,5 @@ collections:
       - {label: "Featured Image", name: "image", widget: "image", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime", required: false}
       - {label: "Categories", name: "categories", widget: "list"}
+
+

@@ -18,5 +18,16 @@
     Developed by Atanas Yonkov || Powered by VuePress
   </div></div> <!----></div></div>
     <script src="/assets/js/app.0b9bb437.js" defer></script><script src="/assets/js/7.dbb4f302.js" defer></script><script src="/assets/js/4.785828a2.js" defer></script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
   </body>
 </html>

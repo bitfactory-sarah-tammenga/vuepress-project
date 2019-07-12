@@ -11,15 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yonkov/Vuepress-project.git"
+    "url": "git+https://github.com/bitfactory-sarah-tammenga/vuepress-project.git"
   },
   "keywords": [],
   "author": "",
   "bugs": {
-    "url": "https://github.com/yonkov/Vuepress-project/issues"
+    "url": "https://github.com/bitfactory-sarah-tammenga/vuepress-project/issues"
   },
-  "homepage": "https://github.com/yonkov/Vuepress-project#readme",
+  "homepage": "https://github.com/bitfactory-sarah-tammenga/vuepress-project#readme",
   "devDependencies": {
     "vuepress": "^0.14.8"
+  },
+  "dependencies": {
+    "netlify-cms": "^2.9.6"
   }
 }
