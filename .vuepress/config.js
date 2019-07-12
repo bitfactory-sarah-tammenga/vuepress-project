@@ -1,7 +1,3 @@
-import CMS from 'netlify-cms'
-// Now the registry is available via the CMS object.
-CMS.registerPreviewTemplate('vuepress-project', Vuepress-project)
-
 module.exports = {
 
    title: 'Teach English',
