@@ -56,7 +56,6 @@ categories:
                 </p>
             </td>
         </tr>
-        
     </tbody>
 </table>
 <p>
