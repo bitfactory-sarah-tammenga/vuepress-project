@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/bitfactory-sarah-tammenga/vuepress-project#readme",
   "devDependencies": {
-    "vuepress": "^0.14.8"
+    "vuepress": "^1.9.7"
   },
   "dependencies": {
     "netlify-cms": "^2.9.6"
